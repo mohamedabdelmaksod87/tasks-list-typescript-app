@@ -1,28 +1,6 @@
 ## App Description
 
-This is a simple List App where the main goal is to apply object oriented programming
-using Typescript to build our App.
-
-Also i have applied Singleton design pattern on some classes to instantiate a single
-instance of the class through the application.
-
-## App Classes & Interfaces:
-
-- ListItem (class) implements Item (interface)
-- FullList (class) implements List (interface)
-- ListTemplate (class) implements DOMList (interface)
-
-## Applied Design Pattern:
-
-- Singleton Design Pattern on (ListTemplate (class)),
-  here we apply singleton design pattern since we have only one list UI template
-  through our application and we need to instantiate the listTemplate once and apply
-  all methods through this instance.
-
-- Singleton Design Pattern on (FullList (class)),
-  here we apply singleton design pattern since we have only one List of Items
-  through our application and we need to instantiate the list once and apply
-  all methods through this instance.
+Simple Tasks List App where I have focused on implementing object-oriented programming, SOLID principals and singleton design pattern using Typescript to build my App.
 
 ## Run the App:
 
